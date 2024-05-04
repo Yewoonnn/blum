@@ -1,11 +1,10 @@
 package Test01;
 //필요한 Swing 컴포넌트를 임포트합니다.
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
 //blumapp 클래스 정의
-public class blumapp {
+public class MainFrame {
 
     public static void createAndShowGUI() {
         // 프레임 생성
@@ -19,7 +18,7 @@ public class blumapp {
 
 
         // 프레임 사이즈 설정 및 화면 가운데에 위치
-        frame.setSize(1000, 600);
+        frame.setSize(800, 640);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
