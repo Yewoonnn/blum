@@ -4,6 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class MainPanel2 extends JFrame {
+    JFrame frame = new JFrame("Blum");
 
     public MainPanel2() {
         setTitle("쇼핑몰 예제");
@@ -61,6 +62,7 @@ public class MainPanel2 extends JFrame {
 
         setVisible(true);
     }
+
 
     public static void main(String[] args) {
         new MainPanel2();

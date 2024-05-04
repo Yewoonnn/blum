@@ -9,6 +9,7 @@ public class MainFrame {
     public static void createAndShowGUI() {
         // 프레임 생성
         JFrame frame = new JFrame("Blum");
+
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
